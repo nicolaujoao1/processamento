@@ -1,0 +1,26 @@
+h1{
+    text-align: center;
+    margin: auto;
+    text-transform: uppercase;
+}
+.processar{
+    margin: 10px auto;
+    margin-top: 50px;
+    border:16px solid #8d797931;
+    height: 120px;
+    width: 120px;
+    border-radius: 50%;
+    border-top-color:blue;
+    border-bottom-color: green;
+    animation:animar 2s linear infinite;
+}
+
+
+@keyframes animar{
+    0%{
+        transform:rotate(0deg);
+    }
+    100%{
+        transform: rotate(360deg);
+    }
+}
